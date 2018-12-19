@@ -20,4 +20,9 @@ Flexbox는 하나의 속성이 아닌 전체 모듈이기 때문에, 이것은 �
 '보통의'레이아웃이 블럭과 인라인 플로우 방향에 놓인다면, flex 레이아웃은 'flex-flow 방향'에 놓이게된다.
 <br>flex 레이아웃의 주요 아이디어를 설명하는 아래의 그림을 유심히 살펴보자. 
 ![flex basic](https://user-images.githubusercontent.com/22817401/50204191-51e69b00-03a7-11e9-80df-adc10fa4efe6.jpeg)
-아이템들은 **메인축**(main start 부터 main end) 또는 **교차축**(cross start 부터 cross end)에 따라서 배치된다.
+아이템들은 **메인축**(main-start 부터 main-end) 또는 **교차축**(cross-start 부터 cros-end)에 따라서 배치된다.
+
+- **main axis :** flex 컨테이너의 메인축은 flex 아이템들이 배치되는 기본축이다. 메인축은 반드시 수평축이 될 필요는 없다. 
+<br>메인 축은 flex-direction 속성에 의존한다.
+- **main-start | main-end :** flex 아이템들은 main-start에서 시작해서 main-end로 가면서 컨테이너 안에 위치하게 된다.
+- **main-size :** 기본 치수 안에 있는 flex 아이템의 너비 또는 높이가 그 아이템의 기본 크기이다.
