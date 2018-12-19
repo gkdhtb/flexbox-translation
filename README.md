@@ -14,5 +14,10 @@ Flex layout의 주요 쟁점은 가능한 공간(디바이스 디스플레이 �
 <br>큰 규모의 레이아웃에는 *'Grid'* 를 사용하는 것이 적절하다.
 
 ## 기초 & 용어
-Flexbox는 하나의 속성이 아닌 전체 모듈이기 때문에, 이것은 많은 속성 쌍을 포함하고 있다. 속성들 중 일부는 컨테이너('flex container'인 부모 요소)에 사용하고, 나머지는 'flex items'이라 불리우는 자식요소에서 사용한다.
+Flexbox는 하나의 속성이 아닌 전체 모듈이기 때문에, 이것은 많은 속성 쌍을 포함하고 있다. 
+<br>속성들 중 일부는 컨테이너('flex container'인 부모 요소)에 사용하고, 나머지는 'flex items'이라 불리우는 자식요소에서 사용한다.
 
+'보통의'레이아웃이 블럭과 인라인 플로우 방향에 놓인다면, flex 레이아웃은 'flex-flow 방향'에 놓이게된다.
+<br>flex 레이아웃의 주요 아이디어를 설명하는 아래의 그림을 유심히 살펴보자. 
+![flex basic](https://user-images.githubusercontent.com/22817401/50204191-51e69b00-03a7-11e9-80df-adc10fa4efe6.jpeg)
+아이템들은 **메인축**(main start 부터 main end) 또는 **교차축**(cross start 부터 cross end)에 따라서 배치된다.
