@@ -26,3 +26,5 @@ Flexbox는 하나의 속성이 아닌 전체 모듈이기 때문에, 이것은 �
 <br>메인 축은 flex-direction 속성에 의존한다.
 - **main-start | main-end :** flex 아이템들은 main-start에서 시작해서 main-end로 가면서 컨테이너 안에 위치하게 된다.
 - **main-size :** 기본 치수 안에 있는 flex 아이템의 너비 또는 높이가 그 아이템의 기본 크기이다.
+- **cross axis :** 매안 축의 수직축을 cross axis 라고 부른다. cross axis의 방향은 메인 축의 방향에 의존한다.
+- **cross-start | cross-end :**
